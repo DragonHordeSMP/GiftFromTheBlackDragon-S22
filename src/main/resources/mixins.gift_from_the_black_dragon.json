@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "plus.dragons.gftbd22.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [],
+  "server": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "mixins.gift_from_the_black_dragon.refmap.json"
+}
