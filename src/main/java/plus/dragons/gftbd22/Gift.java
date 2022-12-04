@@ -7,5 +7,4 @@ import net.minecraftforge.fml.common.Mod;
 public class Gift
 {
     public Gift() {}
-
 }
