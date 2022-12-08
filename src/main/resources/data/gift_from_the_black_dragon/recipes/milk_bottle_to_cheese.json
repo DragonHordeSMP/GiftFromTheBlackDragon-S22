@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": [
+    {
+      "item": "farmersdelight:milk_bottle"
+    }
+  ],
+  "result":"vanillacookbook:cheese"
+}

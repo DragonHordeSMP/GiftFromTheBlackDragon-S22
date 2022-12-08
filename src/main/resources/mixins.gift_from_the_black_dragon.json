@@ -3,8 +3,12 @@
   "package": "plus.dragons.gftbd22.mixin",
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
-  "mixins": [],
-  "server": ["Silencer"],
+  "mixins": [
+    "InWorldProcessingMixin"
+  ],
+  "server": [
+    "Silencer"
+  ],
   "client": [],
   "injectors": {
     "defaultRequire": 1
