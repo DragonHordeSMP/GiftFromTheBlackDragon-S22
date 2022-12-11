@@ -17,7 +17,7 @@ apply plugin: 'maven-publish'
 // MixinGradle:
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.0.2'
+version = '1.0.3'
 group = 'plus.dragons.gftbd22' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'gift_from_the_black_dragon'
 
