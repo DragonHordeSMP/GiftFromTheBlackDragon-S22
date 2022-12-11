@@ -18,7 +18,9 @@ public class InWorldProcessingMixin {
         List<ItemStack> ret = cir.getReturnValue();
         if(ret!=null && !ret.isEmpty())
             if(ret.get(0).getItem() instanceof CheeseItem){
-                ret.add(Items.GLASS_BOTTLE.getDefaultInstance());
+                var bottle = Items.GLASS_BOTTLE.getDefaultInstance();
+                bottle.setCount(ret.get(0).getCount());
+                ret.add(bottle);
                 cir.setReturnValue(ret);
             }
     }
