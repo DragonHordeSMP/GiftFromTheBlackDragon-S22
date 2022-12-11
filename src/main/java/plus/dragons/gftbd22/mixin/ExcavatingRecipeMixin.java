@@ -2,10 +2,12 @@ package plus.dragons.gftbd22.mixin;
 
 import com.tom.createores.recipe.ExcavatingRecipe;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Pseudo;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
+@Pseudo
 @Mixin(ExcavatingRecipe.class)
 public class ExcavatingRecipeMixin {
 

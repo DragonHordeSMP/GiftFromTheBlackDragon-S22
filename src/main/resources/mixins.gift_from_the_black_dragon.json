@@ -3,7 +3,6 @@
   "package": "plus.dragons.gftbd22.mixin",
   "compatibilityLevel": "JAVA_17",
   "minVersion": "0.8",
-  "plugin": "plus.dragons.gftbd22.mixin.MixinPlugin",
   "mixins": [
     "InWorldProcessingMixin",
     "ExcavatingRecipeMixin"
