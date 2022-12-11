@@ -17,7 +17,7 @@ apply plugin: 'maven-publish'
 // MixinGradle:
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.0.1'
+version = '1.0.2'
 group = 'plus.dragons.gftbd22' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'gift_from_the_black_dragon'
 
@@ -160,6 +160,7 @@ dependencies {
 
     implementation fg.deobf("curse.maven:farmersdelight-398521:3999153")
     implementation fg.deobf("curse.maven:vanillacookbook-402659:3783694")
+    implementation fg.deobf("curse.maven:createoreexcavation-649832:4013294")
 
     // Apply Mixin AP
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'

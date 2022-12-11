@@ -14,9 +14,9 @@ import java.util.List;
 @Mixin(InWorldProcessing.class)
 public class InWorldProcessingMixin {
     @Inject(method = "process", at = @At("RETURN"), cancellable = true, remap = false)
-    private static void injected(CallbackInfoReturnable<List<ItemStack>> cir) {
+    private static void keepGlassBottle(CallbackInfoReturnable<List<ItemStack>> cir) {
         List<ItemStack> ret = cir.getReturnValue();
-        if(ret!=null)
+        if(ret!=null && !ret.isEmpty())
             if(ret.get(0).getItem() instanceof CheeseItem){
                 ret.add(Items.GLASS_BOTTLE.getDefaultInstance());
                 cir.setReturnValue(ret);
